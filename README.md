@@ -1,2 +1,14 @@
 # timeseries_notes
 Notes, links, ideas on analyzing time series
+
+This is not a replacement for [awesome time_series_python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
+
+## Unsupervised
+The key lies in finding a **similarity matrix**. 
+
+Options:
+ - STOMP ([python](https://github.com/TDAmeritrade/stumpy)): Computes a matrix profile. Once you have the matrix profile, you can answer [100 questions](https://www.cs.ucr.edu/~eamonn/100_Time_Series_Data_Mining_Questions__with_Answers.pdf). Number 2 about repitions is interesting.
+ - Dynamic Time Warping (DTW, [python](https://github.com/blue-yonder/tsfresh)): Creates Euclidean distance between points to compute a matrix. 
+
+
+
