@@ -7,8 +7,6 @@ This is not a replacement for [awesome time_series_python](https://github.com/Ma
 The key lies in finding a **similarity matrix**. 
 
 Options:
- - STOMP ([python](https://github.com/TDAmeritrade/stumpy)): Computes a matrix profile. Once you have the matrix profile, you can answer [100 questions](https://www.cs.ucr.edu/~eamonn/100_Time_Series_Data_Mining_Questions__with_Answers.pdf). Number 2 about repitions is interesting.
- - Dynamic Time Warping (DTW, [python](https://github.com/blue-yonder/tsfresh)): Creates Euclidean distance between points to compute a matrix. 
-
-
+ - STOMP ([python](https://github.com/TDAmeritrade/stumpy)): Computes a matrix profile. Once you have the matrix profile, you can answer [100 questions](https://www.cs.ucr.edu/~eamonn/100_Time_Series_Data_Mining_Questions__with_Answers.pdf). Number 2 about repitions is interesting. [Multivariate](https://towardsdatascience.com/part-10-discovering-multidimensional-time-series-motifs-45da53b594bb) tutorial.
+ - Dynamic Time Warping (DTW, [python](https://github.com/blue-yonder/tsfresh)): Creates Euclidean distance between points to compute a matrix. [Tutorial](https://github.com/kamperh/lecture_dtw_notebook/blob/main/dtw.ipynb) from scratch.
 
